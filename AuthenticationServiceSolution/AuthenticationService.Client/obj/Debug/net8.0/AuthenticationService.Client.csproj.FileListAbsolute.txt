@@ -1,0 +1,12 @@
+C:\Users\ruife\source\repos\AuthenticationServiceServer-Client\AuthenticationServiceSolution\AuthenticationService.Client\obj\Debug\net8.0\AuthenticationService.Client.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ruife\source\repos\AuthenticationServiceServer-Client\AuthenticationServiceSolution\AuthenticationService.Client\obj\Debug\net8.0\AuthenticationService.Client.AssemblyInfoInputs.cache
+C:\Users\ruife\source\repos\AuthenticationServiceServer-Client\AuthenticationServiceSolution\AuthenticationService.Client\obj\Debug\net8.0\AuthenticationService.Client.AssemblyInfo.cs
+C:\Users\ruife\source\repos\AuthenticationServiceServer-Client\AuthenticationServiceSolution\AuthenticationService.Client\obj\Debug\net8.0\AuthenticationService.Client.csproj.CoreCompileInputs.cache
+C:\Users\ruife\source\repos\AuthenticationServiceServer-Client\AuthenticationServiceSolution\AuthenticationService.Client\obj\Debug\net8.0\AuthenticationService.Client.sourcelink.json
+C:\Users\ruife\source\repos\AuthenticationServiceServer-Client\AuthenticationServiceSolution\AuthenticationService.Client\bin\Debug\net8.0\AuthenticationService.Client.deps.json
+C:\Users\ruife\source\repos\AuthenticationServiceServer-Client\AuthenticationServiceSolution\AuthenticationService.Client\bin\Debug\net8.0\AuthenticationService.Client.dll
+C:\Users\ruife\source\repos\AuthenticationServiceServer-Client\AuthenticationServiceSolution\AuthenticationService.Client\bin\Debug\net8.0\AuthenticationService.Client.pdb
+C:\Users\ruife\source\repos\AuthenticationServiceServer-Client\AuthenticationServiceSolution\AuthenticationService.Client\obj\Debug\net8.0\AuthenticationService.Client.dll
+C:\Users\ruife\source\repos\AuthenticationServiceServer-Client\AuthenticationServiceSolution\AuthenticationService.Client\obj\Debug\net8.0\refint\AuthenticationService.Client.dll
+C:\Users\ruife\source\repos\AuthenticationServiceServer-Client\AuthenticationServiceSolution\AuthenticationService.Client\obj\Debug\net8.0\AuthenticationService.Client.pdb
+C:\Users\ruife\source\repos\AuthenticationServiceServer-Client\AuthenticationServiceSolution\AuthenticationService.Client\obj\Debug\net8.0\ref\AuthenticationService.Client.dll
