@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "6dW2XOGYQ6EJyh3RdRKEV5ohb+Zrr0VKAFneBK7WcbE=",
+  "Source": "AuthenticationService.Server",
+  "BasePath": "_content/AuthenticationService.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

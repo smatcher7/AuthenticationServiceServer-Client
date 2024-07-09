@@ -1,0 +1,6 @@
+obj\Debug\net8.0\Protos/Authentication.cs \
+obj\Debug\net8.0\Protos/AuthenticationGrpc.cs: google/api/http.proto\
+ C:/Users/ruife/.nuget/packages/grpc.tools/2.63.0/build/native/include/google/protobuf/descriptor.proto\
+ google/api/annotations.proto\
+ C:/Users/ruife/.nuget/packages/grpc.tools/2.63.0/build/native/include/google/protobuf/empty.proto\
+ Protos/Authentication.proto

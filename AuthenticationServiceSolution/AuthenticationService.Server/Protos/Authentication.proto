@@ -1,0 +1,56 @@
+syntax = "proto3";
+import "google/api/annotations.proto";
+import "google/protobuf/empty.proto";
+option csharp_namespace = "AuthenticationService.Server.Services";
+
+package Authentication;
+
+service Authentication {
+  rpc SignIn (SignInRequest) returns (SignInReply){
+    option (google.api.http) = {
+      post: "/Authentication/Register"
+      body: "credentials"
+    };
+  }
+  rpc Login (LoginRequest) returns (LoginReply){
+    option (google.api.http) = {
+      post: "/Authentication/Login"
+      body: "credentials"
+    };
+  }
+  rpc GetRegisteredUsers (google.protobuf.Empty) returns (GetRegisteredUsersReply){
+    option (google.api.http) = {
+      get: "/Authentication/GetUsers"
+    };
+  }
+}
+
+message SignInRequest {
+  UserCredentials credentials = 1;
+}
+
+message LoginReply {
+  bool success = 1;
+  string authorizationToken = 2;
+  string expirationDate = 3;
+}
+
+message LoginRequest {
+  UserCredentials credentials = 1;
+}
+
+message SignInReply {
+  bool success = 1;
+  string message = 2;
+  int64 ElapsedTime = 3;
+  string generatedHash = 4;
+}
+
+message GetRegisteredUsersReply {
+    repeated string Users = 1;
+}
+
+message UserCredentials{
+    string username = 1;
+    string password = 2;
+}

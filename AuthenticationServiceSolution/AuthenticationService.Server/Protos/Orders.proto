@@ -1,0 +1,40 @@
+syntax = "proto3";
+import "google/api/annotations.proto";
+option csharp_namespace = "AuthenticationService.Server.Services";
+
+package Orders;
+
+service Orders {
+  rpc Register (RegisterRequest) returns (RegisterReply){
+    option (google.api.http) = {
+      post: "/Orders/Register"
+      body: "orderdetails"
+    };
+  }
+
+  rpc RegisterStreaming(RegisterRequest) returns (stream RegisterStreamingReply){
+      option (google.api.http) = {
+      post: "/Orders/RegisterStreaming"
+      body: "orderdetails"
+    };
+  }
+}
+
+message RegisterRequest{
+ OrderDetails orderdetails = 1;
+}
+
+message RegisterReply{
+    bool success = 1;
+}
+
+message RegisterStreamingReply {
+    bool success = 1;
+    bool finished = 2;
+    string message = 3;
+}
+
+message OrderDetails{
+    int32 orderid = 1;
+    double orderprice = 2;
+}
